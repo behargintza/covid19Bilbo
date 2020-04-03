@@ -1,0 +1,29 @@
+
+    /* Mi primera hoja de estilo */
+        body {
+            
+        background-color: cornsilk;    
+        }
+        h1 { 
+        color:darkblue;
+        text-align: center;
+        font-size: 400%;
+        font-family: sans-serif;
+        
+        }
+        
+        #logo {
+            width: 20%;
+            height: 500px;
+            display: inline-block;
+            text-align: center;
+            align-content: top;
+            background-color: cornsilk;    
+
+        }
+        #curve_chart{
+            width:900px;
+            height: 500px;
+            display: inline-block;
+            background-color: cornsilk;    
+        }

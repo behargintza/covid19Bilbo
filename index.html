@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>El Coronavirus en Bilbao</title>
+        <link rel="stylesheet" href="micss.css">  
+        <script src="csvloader.js"></script> 
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+              google.charts.load('current', {'packages':['corechart']});
+              google.charts.setOnLoadCallback(drawChart);
+
+              function drawChart() {
+                var data = google.visualization.arrayToDataTable(datos_volteados);
+
+                var options = {
+                  title: 'POSITIVOS COVID-19 BARRIOS BILBAO',
+                  curveType: 'function',
+                  legend: {position: 'right', textStyle: {color: 'black', fontSize: 14},alignment:'center'},
+                  hAxis: {
+                    title: 'Fechas'
+                   },
+                  vAxis: {
+                    title: 'Número de Positivos',
+                    slantedTextAngle:-90,
+
+                  },
+                  colors: ['#a52714', '#097138','#0200F8','#FF11FF'],
+                  pointShape:'diamond',
+                  pointSize:5,
+                };
+
+                var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+                chart.draw(data, options);
+      }
+        </script>
+    </head>
+    <body> 
+          <h1>Evolución del Coronavirus en los Barrios de Bilbao </h1>
+          <div id="curve_chart" ></div>
+
+          <img id="logo" src="http://www.eastwindmarketing.es/blogs/eastwindmarketingycomunicacion/wp-content/uploads/Bdebilbao_300pix.jpg">
+          
+
+    </body>
+</html>
