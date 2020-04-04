@@ -1,29 +1,31 @@
 
-    /* Mi primera hoja de estilo */
+    /* HOJA DE ESTILO PARA LA PAGINA INDEX.HTML */
         body {
-            
+        /* Estilo correspondiente a todo el cuerpo de la página, definido COLOR de fondo*/
         background-color: cornsilk;    
         }
         h1 { 
-        color:darkblue;
-        text-align: center;
-        font-size: 400%;
-        font-family: sans-serif;
-        
-        }
-        
-        #logo {
-            width: 20%;
-            height: 500px;
-            display: inline-block;
+            
+            /* Se establece el formato para todos los encabezados H1: color azul, 4 veces tamaño, con fuente San Serif y alineado al centro*/
+            color:darkblue;
             text-align: center;
-            align-content: top;
-            background-color: cornsilk;    
-
+            font-size: 400%;
+            font-family: sans-serif;
+        
         }
+        
         #curve_chart{
+            /* Se establece el formato para el div con id=curve_chart
+                Altura 500 pixels, anchura 100% de la pantalla, que se visualice como bloque.*/
+            
             width:100%;
-            height: auto;
-            display: inline-block;
-            background-color: cornsilk;    
+            height: 500px;
+            display: block;
         }
+        /* Se establece el formato para el div con id=curve_chart
+                Altura 500 pixels, anchura 900px de la pantalla, que se visualice como bloque.*/
+        #piechart{
+            width:900PX;
+            height: 500px;
+        }
+
