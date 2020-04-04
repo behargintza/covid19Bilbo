@@ -18,14 +18,14 @@
             /* Se establece el formato para el div con id=curve_chart
                 Altura 500 pixels, anchura 100% de la pantalla, que se visualice como bloque.*/
             
-            width:100%;
+            width:90%;
             height: 500px;
             display: block;
         }
         /* Se establece el formato para el div con id=curve_chart
                 Altura 500 pixels, anchura 900px de la pantalla, que se visualice como bloque.*/
         #piechart{
-            width:900PX;
+            width:90%;
             height: 500px;
         }
 

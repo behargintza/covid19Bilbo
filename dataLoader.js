@@ -48,6 +48,7 @@ de Google Chart.
        if (infoZona.dimension.oid.id =='2320' ||
            infoZona.dimension.oid.id =='2317' ||
            infoZona.dimension.oid.id =='2313' ||
+		   infoZona.dimension.oid.id =='2109' ||
            infoZona.dimension.oid.id =='2318'){
           zonasSalud +=1;
           datos[0].push(infoZona.dimension.nameByLang.BASQUE);
