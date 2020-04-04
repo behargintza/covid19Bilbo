@@ -120,7 +120,7 @@ de Google Chart.
                   vAxis: { //Se indican propiedades del eje vertical ( nombre: Número de Positivos)
                     title: 'Número de Positivos',
                   },
-                  colors: ['#a52714', '#097138','#0200F8','#C3E314'], //Colores de las series
+                  colors: ['#a52714', '#097138','#0200F8','#C3E314','#223311'], //Colores de las series
                   backgroundColor:'#fff8dc', // Color de fondo idéntico al de la página HTML
                   pointShape:'diamond', // Se indica el símbolo que represetnaran los puntos de datos y su tamaño
                   pointSize:5,
@@ -128,7 +128,7 @@ de Google Chart.
                   
                 var optionsPie = {
                   title: 'DISTRIBUCIÓN COVID-19 BARRIOS A FECHA '+datos_volteados[datos_volteados.length-1][0], // Cargamos Titulo con Fecha Datos
-                  colors: ['#a52714', '#097138','#0200F8','#C3E314'], //Colores de las series,mismo que el anterior
+                  colors: ['#a52714', '#097138','#0200F8','#C3E314','#223311'], //Colores de las series,mismo que el anterior
                   backgroundColor:'#fff8dc', // Color de fondo idéntico al de la página HTML
                   legend: {position: 'right', textStyle: {color: 'black', fontSize: 16},alignment:'center'},// Posicionado y tipo de leyenda
                   pieHole:0.5, // Para convertir el PieChart en Donuts Chart
