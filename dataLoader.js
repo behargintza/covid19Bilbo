@@ -131,7 +131,6 @@ de Google Chart.
                   colors: ['#a52714', '#097138','#0200F8','#C3E314','#223311'], //Colores de las series,mismo que el anterior
                   backgroundColor:'#fff8dc', // Color de fondo idéntico al de la página HTML
                   legend: {position: 'right', textStyle: {color: 'black', fontSize: 16},alignment:'center'},// Posicionado y tipo de leyenda
-                  pieHole:0.5, // Para convertir el PieChart en Donuts Chart
                   slices: {  0: {offset: 0.1},  }, // Destacamos la información del primer trozo: Karmelo
                   pieStartAngle:60,  // Giramos la gráfica 60º para que el trozo destacado quede a la derecha
 
